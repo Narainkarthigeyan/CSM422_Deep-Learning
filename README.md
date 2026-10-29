@@ -1,5 +1,21 @@
 # AgroVision AI — Notebook Training + Streamlit UI
 
+## Dataset
+
+This project uses the PlantVillage dataset for plant leaf disease classification across 38 classes.
+
+The complete dataset is not stored in this GitHub repository because of its large size.
+
+**Download the dataset:** https://drive.google.com/file/d/1nbYtTyaT-lv0scpnnF6xQrt1QQLeCEnk/view?usp=drive_link
+
+### Setup
+
+1. Download and extract the dataset.
+2. Place it in the `dataset/PlantVillage/` directory.
+3. Run the development notebook to train the model, or use the provided trained model if available.
+4. Launch the Streamlit application.
+
+The dataset directory should contain one subfolder per class, with the corresponding leaf images inside each folder.
 ## Files
 - `AgroVision_Development.ipynb`: dataset inspection, preprocessing, EfficientNetB0 transfer learning, training, evaluation, testing, and export.
 - `app.py`: Streamlit UI copied from the uploaded AgroVision interface.
